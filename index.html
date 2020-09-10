@@ -21,101 +21,144 @@
     <link rel="stylesheet" href="style.css" />
     <title>Sitora's Work Day Scheduler</title>
   </head>
+
+
   <body>
+
+  
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <h2 id="currentDay" class="lead"></h2>
     </header>
+
+
+    <!-- Timeblocks go here -->
     <div class="container">
-      <!-- Timeblocks go here -->
-      <!--create div container for each hour time slot -->
+      <!-- div container for each hour time slot -->
       <div class="row">
-        <!-- create text area where the events of the hour are typed by user -->
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text hour">09:00 am </span>
+        <!-- 24 hour corresponding to am/pm -->
+        <div id="hour-09" class="row time-block">
+          <div class="col-sm hour"> 
+            09:00 am
           </div>
-          <!-- create text of div to show the relevant hour slot (9-17 (24 hour clock)) -->
-          <!-- include class designation from CSS (.description) -->
-          <textarea class="form-control" aria-label="With textarea" id="9am"></textarea>
+          <!-- corresponding CSS class designation (.description) -->
+          <!-- user enters event/plan details here -->
+          <textarea class="col-sm description"></textarea>
           <!-- create save button include a class for all save buttons (.saveBtn) -->
-          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+          <button class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
       <div class="row">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text hour">10:00 am </span>
+        <!-- 24 hour corresponding to am/pm -->
+        <div id="hour-10" class="row time-block">
+          <div class="col-sm hour">
+            10:00 am
           </div>
-          <textarea class="form-control" aria-label="With textarea" id="10am"></textarea>
-          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+          <!-- corresponding CSS class designation (.description) -->
+          <!-- user enters event/plan details here -->
+          <textarea class="col-sm description"></textarea>
+          <!-- create save button include a class for all save buttons (.saveBtn) -->
+          <button class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
       <div class="row">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text hour">11:00 am </span>
+        <!-- 24 hour corresponding to am/pm -->
+        <div id="hour-11" class="row time-block">
+          <div class="col-sm hour">
+            11:00 am
           </div>
-          <textarea class="form-control" aria-label="With textarea" id="11am"></textarea>
-          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+          <!-- corresponding CSS class designation (.description) -->
+          <!-- user enters event/plan details here -->
+          <textarea class="col-sm description"></textarea>
+          <!-- create save button include a class for all save buttons (.saveBtn) -->
+          <button class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
       <div class="row">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text hour">12:00 pm </span>
+        <!-- 24 hour corresponding to am/pm -->
+        <div id="hour-12" class="row time-block">
+          <div class="col-sm hour">
+            12:00 pm
           </div>
-          <textarea class="form-control" aria-label="With textarea" id="12pm"></textarea>
-          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+          <!-- corresponding CSS class designation (.description) -->
+          <!-- user enters event/plan details here -->
+          <textarea class="col-sm description"></textarea>
+          <!-- create save button include a class for all save buttons (.saveBtn) -->
+          <button class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
       <div class="row">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text hour">01:00 pm </span>
+        <!-- 24 hour corresponding to am/pm -->
+        <div id="hour-13" class="row time-block">
+          <div class="col-sm hour">
+            1:00 pm
           </div>
-          <textarea class="form-control" aria-label="With textarea" id="13pm"></textarea>
-          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+          <!-- corresponding CSS class designation (.description) -->
+          <!-- user enters event/plan details here -->
+          <textarea class="col-sm description"></textarea>
+          <!-- create save button include a class for all save buttons (.saveBtn) -->
+          <button class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
       <div class="row">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text hour">02:00 pm </span>
+        <!-- 24 hour corresponding to am/pm -->
+        <div id="hour-14" class="row time-block">
+          <div class="col-sm hour">
+            2:00 pm
           </div>
-          <textarea class="form-control" aria-label="With textarea" id="14pm"></textarea>
-          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+          <!-- corresponding CSS class designation (.description) -->
+          <!-- user enters event/plan details here -->
+          <textarea class="col-sm description"></textarea>
+          <!-- create save button include a class for all save buttons (.saveBtn) -->
+          <button class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
       <div class="row">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text hour">03:00 pm </span>
+        <!-- 24 hour corresponding to am/pm -->
+        <div id="hour-15" class="row time-block">
+          <div class="col-sm hour">
+            3:00 pm
           </div>
-          <textarea class="form-control" aria-label="With textarea" id="15pm"></textarea>
-          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+          <!-- corresponding CSS class designation (.description) -->
+          <!-- user enters event/plan details here -->
+          <textarea class="col-sm description"></textarea>
+          <!-- create save button include a class for all save buttons (.saveBtn) -->
+          <button class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
       <div class="row">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text hour">04:00 pm </span>
+        <!-- 24 hour corresponding to am/pm -->
+        <div id="hour-16" class="row time-block">
+          <div class="col-sm hour">
+            4:00 pm
           </div>
-          <textarea class="form-control" aria-label="With textarea" id="16pm"></textarea>
-          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+          <!-- corresponding CSS class designation (.description) -->
+          <!-- user enters event/plan details here -->
+          <textarea class="col-sm description"></textarea>
+          <!-- create save button include a class for all save buttons (.saveBtn) -->
+          <button class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
       <div class="row">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text hour">05:00 pm </span>
+        <!-- 24 hour corresponding to am/pm -->
+        <div id="hour-17" class="row time-block">
+          <div class="col-sm hour">
+            5:00 pm
           </div>
-          <textarea class="form-control" aria-label="With textarea" id="17pm"></textarea>
-          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+          <!-- corresponding CSS class designation (.description) -->
+          <!-- user enters event/plan details here -->
+          <textarea class="col-sm description"></textarea>
+          <!-- create save button include a class for all save buttons (.saveBtn) -->
+          <button class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
     </div>
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>

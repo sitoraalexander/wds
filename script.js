@@ -1,6 +1,6 @@
 //display the current day at the top of the calendar
 
-$("#currentDay").text(moment().format('MMMM, Do YYYY'));
+$("#currentDay").text(moment().format('MMMM Do, YYYY'));
 
   
 //function readFromLocalStorage ()
