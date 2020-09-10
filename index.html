@@ -25,16 +25,21 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <h2 id="currentDay" class="lead"></h2>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <!--create div container for each hour time slot -->
       <div class="row">
+        <!-- create text area where the events of the hour are typed by user -->
         <div class="input-group">
           <div class="input-group-prepend">
             <span class="input-group-text hour">09:00 am </span>
           </div>
+          <!-- create text of div to show the relevant hour slot (9-17 (24 hour clock)) -->
+          <!-- include class designation from CSS (.description) -->
           <textarea class="form-control" aria-label="With textarea" id="9am"></textarea>
+          <!-- create save button include a class for all save buttons (.saveBtn) -->
           <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
         </div>
       </div>
