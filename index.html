@@ -19,9 +19,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
+    <title>Sitora's Work Day Scheduler</title>
   </head>
-
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
@@ -30,16 +29,90 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text hour">09:00 am </span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea" id="9am"></textarea>
+          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text hour">10:00 am </span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea" id="10am"></textarea>
+          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text hour">11:00 am </span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea" id="11am"></textarea>
+          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text hour">12:00 pm </span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea" id="12pm"></textarea>
+          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text hour">01:00 pm </span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea" id="13pm"></textarea>
+          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text hour">02:00 pm </span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea" id="14pm"></textarea>
+          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text hour">03:00 pm </span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea" id="15pm"></textarea>
+          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text hour">04:00 pm </span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea" id="16pm"></textarea>
+          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text hour">05:00 pm </span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea" id="17pm"></textarea>
+          <button type="button" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+      </div>
     </div>
-    <!--create div container for each hour time slot 
-    create text of div to show the relevant hour slot (9-17 (24 hour clock))
-    create text area where the events of the hour are typed by user
-        include class designation from CSS (.description)
-        include specific ID for each hour
-    create save button
-        include a class for all save buttons (.saveBtn) -->
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
