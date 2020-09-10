@@ -1,9 +1,7 @@
 //display the current day at the top of the calendar
 
-var interval = setInterval(function() {
-    var momentNow = moment();
-    $('#currentDay').html(momentNow.format('MMMM Do[,] YYYY') + ' ');
-  }, 100);
+$("#currentDay").text(moment().format('MMMM, Do YYYY'));
+
   
 //function readFromLocalStorage ()
 //<!-- this is to look for anything saved previously in local storage -->
